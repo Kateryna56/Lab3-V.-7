@@ -1,0 +1,15 @@
+Module Program : Sub Main(args As String())
+Dim number As Double = 3.14
+Dim text As String = "Hello, World!"
+Console.WriteLine(text)
+#If DEBUG Then
+Console.WriteLine(text + text)
+#End If
+If number > 3 Then Console.WriteLine(number)
+For i = 1 To 10 : Console.WriteLine(i) : Next
+Dim identifier_1 As Integer = 0
+Dim identifier_2 As String = "VB.NET"
+Dim result = If(identifier_1 = 1, "Yes", "No")
+Console.WriteLine(result)
+End Sub
+End Module
